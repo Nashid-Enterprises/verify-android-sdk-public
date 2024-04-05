@@ -1,0 +1,22 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        mavenLocal()
+        maven { url 'https://mvnrepository.com/artifact/com.github.gundy/semver4j' }
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        mavenLocal()
+        maven { url 'https://mvnrepository.com/artifact/com.github.gundy/semver4j' }
+    }
+}
+
+rootProject.name = "Andorid SDK public"
+include ':app'
