@@ -9,32 +9,32 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.kyc.nashidmrz</groupId>
   <artifactId>IDV</artifactId>
-  <version>2.0</version>
-
+  <version>2.2</version>
+ 
   <dependencies>
     <dependency>
       <groupId>androidx.databinding</groupId>
       <artifactId>viewbinding</artifactId>
       <version>7.4.2</version>
-      
+     
     </dependency>
     <dependency>
       <groupId>androidx.databinding</groupId>
       <artifactId>databinding-common</artifactId>
       <version>7.4.2</version>
-      
+     
     </dependency>
     <dependency>
       <groupId>androidx.databinding</groupId>
       <artifactId>databinding-runtime</artifactId>
       <version>7.4.2</version>
-      
+     
     </dependency>
     <dependency>
       <groupId>androidx.databinding</groupId>
       <artifactId>databinding-adapters</artifactId>
       <version>7.4.2</version>
-      
+     
     </dependency>
     <dependency>
       <groupId>androidx.appcompat</groupId>
@@ -256,12 +256,6 @@
       <groupId>com.guolindev.permissionx</groupId>
       <artifactId>permissionx</artifactId>
       <version>1.7.1</version>
-      
-    </dependency>
-    <dependency>
-      <groupId>org.opencv</groupId>
-      <artifactId>opencv</artifactId>
-      <version>4.9.0</version>
       
     </dependency>
   </dependencies>
